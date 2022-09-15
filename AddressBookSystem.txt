@@ -21,3 +21,9 @@ insert into Address_Book_System(FirstName,LastName,Address,city,state,PhoneNumbe
 '0986726541','vijay@gmail.com')
 
 drop table Address_Book_System
+
+
+select * from Address_Book_System where city ='pondicherry';
+
+
+select count(city) citycount from Address_Book_System
